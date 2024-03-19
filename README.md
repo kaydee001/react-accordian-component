@@ -15,14 +15,14 @@ To use the Accordion component in your React application, follow these steps:
 
 The **Accordion** component expects an **array of FAQ items** as its data input. Each FAQ item should be an object with the following structure:
 
-![picture alt](./src/faq.png "faq")
+![picture alt](./src/img/ac4.png "faq")
 
 ## State Management
 
 The Accordion component utilizes React's useState hook to manage the state of which accordion items are currently open.
 It keeps track of the index of the currently open item **(curOpen)** and the index of the last clicked item **(lastClicked)** to implement the _double-click closing functionality_.
 
-![picture alt](./src/states.png "states")
+![picture alt](./src/img/ac1.png "states")
 
 ## Components
 
@@ -30,23 +30,23 @@ The Accordion component consists of two sub-components:
 
 - **Accordion**: The parent component responsible for rendering the list of FAQ items and managing their state.
 
-![picture alt](./src/accordian2.png "Title is optional")
+![picture alt](./src/img/ac3.png "Title is optional")
 
 - **AccordionItem**: The child component representing each individual FAQ item. It receives props such as _title, curOpen, and onOpen_.
 
-![picture alt](./src/accordian3.png "Title is optional")
+![picture alt](./src/img/ac2.png "Title is optional")
 
 ## Screenshots
 
 Here are three screenshots demonstrating the functionality of the Accordion component:
 
-- ![picture alt](./src/hfMSodH500.png "Title is optional")
+- ![picture alt](./src/img/ac7.png "Title is optional")
   This screenshot shows the Accordion component with no items open.
 
-- ![picture alt](./src/brave_5nNuxFaMu0.png "Title is optional")
+- ![picture alt](./src/img/ac5.png "Title is optional")
   This screenshot shows the Accordion component with one item open.
 
-- ![picture alt](./src/brave_OjkxUQID41.png "Title is optional")
+- ![picture alt](./src/img/ac6.png "Title is optional")
   This screenshot shows the Accordion component with one item open while another is closed. Only one item can be open at a time.
 
 ## Contributing
